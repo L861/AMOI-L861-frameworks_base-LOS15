@@ -5053,7 +5053,9 @@ public class Camera {
          */
         public void setVideoStabilization(boolean toggle) {
 			
-            set(KEY_VIDEO_STABILIZATION, toggle ? TRUE : FALSE);
+            //set(KEY_VIDEO_STABILIZATION, toggle ? TRUE : FALSE);
+            
+            setVideoHDRMode(toggle ? "on" : "off");
 
         }
 
